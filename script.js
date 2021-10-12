@@ -1,1 +1,0 @@
-let nameAnim = document.getElementById("aName");

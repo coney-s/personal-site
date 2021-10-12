@@ -16,6 +16,10 @@ body:hover {
     background-color: #A6F0C6;
 }
 
+body:hover .green {
+    color: #A6F0C6;
+}
+
 .green:hover {
     color: #A6F0C6;
 }
@@ -88,6 +92,7 @@ body:hover {
     font-size: 4.5rem;
     transition-property: color;
     transition-duration: 4s;
+    color: ghostwhite;
 }
 
 .myName:hover {

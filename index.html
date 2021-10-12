@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <script src="script.js"></script>
+    <script type="text/JavaScript" src="script.js"></script>
 
     <!-- Georama & Montserrat Font -->
     <!-- ffont-family: 'Georama', sans-serif;-->
@@ -30,9 +30,10 @@
 
 
     <title>Shaw L. Coney</title>
+    
 </head>
 
-<body>
+<body id="base">
     <div class="pallet">
         <div class="container-fluid" id="about">
             <nav class="navbar navbar-expand-lg navbar-dark">
@@ -71,11 +72,14 @@
 
             </div>
             <h1 class="greetings">Hello, I'm <span class="myName green" id="aName">Shaw</span></h1>
-            <p class="personalStatement">I'm a <span class="green">website designer</span> and <span class="green">author</span> of neo-noir and speculative fiction. I got into website design
+            <p onscroll="colorChange" class="personalStatement" id="statement">I'm a <span class="green">website
+                    designer</span> and <span class="green">author</span> of neo-noir and speculative fiction. I started
+                designing websites
                 when I needed to build an author page for myself, and then when a friend needed a virtual home for
-                his classes. I graduated <span class="green">LaunchCode's</span> LC101 program after learning <span class="green">JavaScript</span> and <span class="green">Java</span>, and built a Spring
+                his classes. I graduated from <span class="green">LaunchCode's</span> LC101 program after learning <span
+                    class="green">JavaScript</span> and <span class="green">Java</span>, and built a Spring
                 Boot application for my <span class="green">capstone </span>project.
-            </p>    
+            </p>
         </div>
     </div>
 
