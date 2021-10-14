@@ -8,6 +8,15 @@ body {
     
 }
 
+hr {
+    height: 2%;
+    width: 50%;
+    color: ghostwhite;
+    display: inline-block;
+    z-index: 1;
+    border: solid ghostwhite;
+}
+
 .green {
     transition-property: color;
    transition-duration: 4s;
@@ -104,4 +113,47 @@ body:hover .green {
     margin: 3% 15%;
     font-family: 'Georama', sans-serif;
     font-size: 1.625rem;
+}
+
+.sectionHead {
+    color: ghostwhite;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    
+}
+
+/* Puts a hr on each side of header */
+.sectionHead > span{
+    position:relative;
+    display: inline-block;
+}
+.sectionHead > span:before, .sectionHead > span:after {
+    position: absolute;
+    top: 50%;
+    overflow: hidden;
+    width: 100vw;
+    height: 1px;
+    content: '';
+    background-color: ghostwhite;
+    border-bottom: 2px solid;
+    margin: 0 20px;
+}
+
+.sectionHead > span:before {
+    right: 100%;
+}
+
+.sectionHead > span:after {
+    left: 100%;
+}
+
+/* Experience Section */
+
+.experience, .col-lg-6{
+    color: ghostwhite;
+    
 }
