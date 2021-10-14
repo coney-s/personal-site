@@ -75,6 +75,10 @@ body:hover .green {
 
 /* About Section */
 
+.greetingHead {
+    margin: auto;
+}
+
 .greetings {
     font-family: 'Georama', sans-serif;
     text-align: center;
