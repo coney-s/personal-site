@@ -1,20 +1,8 @@
 body {
-    /* background-color: #345B63; */
    border-radius: 5px;
-   /* background-color: #010B13; */
    background-color: ghostwhite;
    transition-property: background-color;
    transition-duration: 4s;
-    
-}
-
-hr {
-    height: 2%;
-    width: 50%;
-    color: ghostwhite;
-    display: inline-block;
-    z-index: 1;
-    border: solid ghostwhite;
 }
 
 .green {
@@ -123,6 +111,7 @@ body:hover .green {
     position: relative;
     z-index: 1;
     overflow: hidden;
+    margin-bottom: 10%;
     
 }
 
@@ -155,5 +144,11 @@ body:hover .green {
 
 .experience, .col-lg-6{
     color: ghostwhite;
+    font-family: 'Montserrat', sans-serif;
     
 }
+
+.row {
+    margin: 3% 7%;
+}
+
